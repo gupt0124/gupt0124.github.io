@@ -7,3 +7,6 @@ body{
 header, footer{
     background-color: bisque;
 }
+.site-title{
+    color: brown;
+}
