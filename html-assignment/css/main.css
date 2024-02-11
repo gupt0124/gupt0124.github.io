@@ -19,3 +19,20 @@ header, footer{
  main ul li:nth-child(odd) {
     background-color: red;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a:link {
+    text-decoration: none;
+}
+nav li a:link {
+    background-color: cornsilk;
+}
+nav li a:link {
+    border-style: solid;
+}
+nav li a:hover {
+    background-color: deeppink;
+}
