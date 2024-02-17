@@ -1,0 +1,18 @@
+html{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../images/lone-starfish-wide.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+}
+footer{
+    text-align: right;
+}
+.contact div{
+    border-style:solid;
+}
