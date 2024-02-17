@@ -6,6 +6,7 @@ header{
     background-image: url(../images/lone-starfish-wide.jpg);
     text-align: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     color: white;
