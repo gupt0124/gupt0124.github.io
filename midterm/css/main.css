@@ -1,21 +1,21 @@
-
+/* adding background color and font family to whole html */
 html{
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* alignment of header in center */
 header{
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+/* adding background color to class wrapper and adding width to it along with margins on right and left */
 .wrapper{
     background-color: cadetblue;
     width: 1025px;
     margin-left: auto;
     margin-right: auto;
 }
+/* putting the items of list in one line with a border in between these three and makind adjustments using padding and text align */
 nav li{
     display: inline-block;
     border-right: 5px solid #333;
@@ -25,11 +25,11 @@ nav li{
     padding-left: 120px;
     padding-right: 120px;
 }
-
+/* remove the right border form the last child of list in nav tag */
 li:last-child{
     border-right: none;
 }
-
+/* give a proper height and width to image and then use the float tag to wrappe the text at the right side of image and also leaving margin of bottom and right*/
 section img{
     width: 250px;
     height: 250px;
@@ -37,13 +37,16 @@ section img{
     margin-bottom: 15px;
     margin-right: 15px;
 }
+/* assigned margin to nav, section and footer */
 nav, section, footer{
     margin: 10px;
 }
+/* assign a proper height and width to class stage */
 .stage{
     width: 1025px;
     height: 350px;
 }
+/* assigned white color to text in class prop and also use the position tag to place it above the image */
 .prop{
    color: white;
    width: 350px;
@@ -52,17 +55,20 @@ nav, section, footer{
    left: 330px;
    bottom: 110px;
 }
+/* assign the white color to h1 */
 h1{
     color: white;
 }
+/* make a solid black border around the elements in class answer */
 .answer{
     padding: 20px;
     border: 5px solid black;
 }
+/* allign the footer to the right  */
 footer{
     text-align: right;
 }
-
+/* add padding on all sides of button */
 button{
     padding: 10px;
 }
