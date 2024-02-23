@@ -1,3 +1,4 @@
+
 html{
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +48,6 @@ nav, section, footer{
    color: white;
    width: 350px;
    height: 50px;
-   font-size: 48px;
    position: relative;
    left: 330px;
    bottom: 110px;
