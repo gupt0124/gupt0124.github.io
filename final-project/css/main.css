@@ -1,0 +1,200 @@
+.niv{
+    background-color: black;
+}
+ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    color: orange;
+    justify-content: center;
+    text-align: center;
+}
+
+
+li{
+    padding: 15px ;
+}
+
+.imag{
+    width: 1rem;
+}
+.div2{
+    background-color: black;
+    color: white;
+}
+.div2 p, h1, button{
+    justify-content: center;
+    align-items: center;
+}
+
+.svg1{
+    width: 1rem;
+}
+button{
+    padding: 10px;
+}
+.div1 img{
+    width: 100%;
+   
+}
+.div3{
+    background-color:blanchedalmond;
+}
+
+.div4{
+    background-color:blanchedalmond;
+}
+
+.div4 button{
+    background-color: black;
+    color: azure;
+}
+.div5{
+    background-color:blanchedalmond;
+}
+
+.div5 button{
+    background-color: black;
+    color: azure;
+}
+.div6{
+    background-color:blanchedalmond;
+}
+
+.div6 button{
+    background-color: black;
+    color: azure;
+}
+.div7{
+    background-color:blanchedalmond;
+}
+
+.div7 button{
+    background-color: black;
+    color: azure;
+}
+.div8{
+    background-color:blanchedalmond;
+}
+
+.div8 button{
+    background-color: black;
+    color: azure;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "a a a b b b"
+    "c c d d e e";
+
+    .div4{
+        grid-area: a;
+    }
+    .div5{
+        grid-area: b;
+    }
+    .div6{
+        grid-area: c;
+    }
+    .div7{
+        grid-area: d;
+    }
+    .div8{
+        grid-area: e;
+    }
+}
+
+.div4, .div5{
+    margin-bottom: 10px;
+}
+
+.div4, .div6, .div7{
+    margin-right: 10px;
+}
+
+.sec2 img{
+    width: 100%;
+}
+
+.sec2 button{
+    background-color: black;
+    color: azure;
+}
+
+.div10, .div12{
+    background-color: blanchedalmond;
+}
+
+.sec3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6% 47% 47%;
+    grid-template-areas:
+    "h1 h1" 
+    "a b"
+    "d c";
+
+    h1{
+        grid-area: h1;
+    }
+    .div9{
+        grid-area: a;
+    }
+    .div10{
+        grid-area: b;
+    }
+    .div11{
+        grid-area: c;
+    }
+    .div12{
+        grid-area: d;
+    }
+}
+
+.sec3 h3{
+    border-bottom: solid brown;
+}
+
+.sec3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.div10, .div12{
+    padding: 10px;
+}
+.div14 button{
+    background-color: black;
+    color: orange;
+}
+
+.div13{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr)
+}
+.div14, .div15{
+    width: 100%;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    color: orange;
+}
+
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding-left: 10px;
+}
+th{
+    background-color: blanchedalmond;
+}
+
