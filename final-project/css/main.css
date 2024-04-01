@@ -65,10 +65,25 @@ li{
     }
 }
 
+.div9 , .div11{
+    width: 100%;
+}
+.grid1 h2,p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p{
+    display: flex;
+}
+
 }
 
 @media screen and (min-width:1415px) and (max-width:2880px) {
     
+.niv{
+    background-color: black;
+}
 
 ul{
     align-items: center;
