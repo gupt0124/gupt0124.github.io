@@ -1,6 +1,15 @@
-
+button{
+    text-align: center;
+    justify-content: center;
+}
 @media screen and (max-width: 1415px) {
-    
+
+.niv{
+    background-color: black;
+}
+ li:nth-child(1){
+    display:inline;
+ }   
 li{
     display: flex;
     flex-direction: row;
@@ -9,11 +18,17 @@ li{
     color: orange;
     justify-content: center;
     text-align: center;
+    padding-bottom: 10px;
     }
 
 .div3 img{
     width: 100%;
 }
+
+.div3 h2,p{
+    display: inline-block;
+}
+
 
 .div4{
     margin-bottom: 15px;
@@ -33,20 +48,20 @@ li{
 }
 .div13{
     display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
-    "a"
-    "c"
-    "b";
+    "14"
+    "16"
+    "15";
+
     .div14{
-        grid-area: a;
+        grid-area: 14;
     }
     .div15{
-        grid-area: b;
+        grid-area: 15;
     }
     .div16{
-        grid-area: c;
+        grid-area: 16;
     }
 }
 
@@ -169,7 +184,7 @@ li{
     width: 1rem;
 }
 button{
-    padding: 10px;
+    padding: 15px;
 }
 .div1 img{
     width: 100%;
@@ -243,6 +258,10 @@ button{
     height: 100%;
 }
 
+.sec2 button{
+    padding: 10px;
+    border: 1px solid orange;
+}
 
 .div14 button{
     background-color: black;
@@ -264,6 +283,8 @@ td{
 th{
     background-color: blanchedalmond;
 }
+
+
 
 table, th, td{
     border: 2px solid black;
