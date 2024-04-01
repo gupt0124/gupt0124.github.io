@@ -1,7 +1,58 @@
-.niv{
-    background-color: black;
+
+@media screen and (max-width: 1415px) {
+    
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    color: orange;
+    justify-content: center;
+    text-align: center;
+    }
+
+.div3 img{
+    width: 100%;
 }
-@media screen and (min-width:1415px) and (max-width:2340px) {
+
+.div4{
+    margin-bottom: 15px;
+}
+
+.div5{
+    margin-bottom: 15px;
+}
+ .div6{
+    margin-bottom: 15px;
+ }
+.div7{
+    margin-bottom: 15px;
+}
+.div10{
+    margin-bottom: 15px;
+}
+.div13{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "a"
+    "c"
+    "b";
+    .div14{
+        grid-area: a;
+    }
+    .div15{
+        grid-area: b;
+    }
+    .div16{
+        grid-area: c;
+    }
+}
+
+}
+
+@media screen and (min-width:1415px) and (max-width:2880px) {
     
 
 ul{
@@ -76,9 +127,12 @@ li{
     }
 }
 
+}
+
 .sec1 img{
     width: 100%;
 }
+
 .div10, .div12{
     padding: 10px;
 }
@@ -89,11 +143,13 @@ li{
 }
 .div3 img{
     float: left;
+    width: 50%;
 }
 
 .sec1 h2, div{
     display: inline-block;
 }
+
 .imag{
     width: 1rem;
 }
@@ -197,14 +253,9 @@ button{
 .div14, .div15{
     width: 100%;
 }
-footer{
-    padding: 20px;
-    background-color: black;
-    color: orange;
-}
 
 table{
-    width: 100%;
+  width: 100%;
 }
 
 td{
@@ -217,9 +268,34 @@ th{
 table, th, td{
     border: 2px solid black;
     border-collapse: collapse;
+    
 }
 
+footer{
+    padding: 20px;
+    background-color: black;
+    color: orange;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
