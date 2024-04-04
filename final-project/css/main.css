@@ -35,9 +35,6 @@ li{
     width: 100%;
 }
 
-.div3 h2,p{
-    display: inline-block;
-}
 
 
 .div4{
@@ -45,6 +42,9 @@ li{
 }
 
 .div5{
+    margin-bottom: 15px;
+}
+.div6 , .div7{
     margin-bottom: 15px;
 }
 
@@ -55,19 +55,19 @@ li{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
-    "14"
-    "16"
-    "15";
+    "aa"
+    "cc"
+    "bb";
 }
 
 .div14{
-    grid-area: 14;
+    grid-area: aa;
 }
 .div15{
-    grid-area: 15;
+    grid-area: bb;
 }
-.div16{
-    grid-area: 16;
+.div16 {
+    grid-area: cc;
 }
 
 .div9 , .div11{
@@ -209,9 +209,6 @@ li{
     align-items: center;
 }
 
-.svg1{
-    width: 1rem;
-}
 button{
     padding: 15px;
 }
@@ -275,6 +272,10 @@ button{
 
 .div10, .div12{
     background-color: blanchedalmond;
+}
+
+.div10{
+    height: 100%;
 }
 
 
