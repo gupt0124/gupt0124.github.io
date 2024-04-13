@@ -5,40 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9ce4fde122.js" crossorigin="anonymous"></script>
     <title>Mobile Mockup</title>
-    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- creating navigation for the list items -->
     <nav class="niv">
         <ul class="wrapper">
             <li><img src="images/logo.png" alt="logo-star"></li>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Team</li>
-            <li>Contact</li>
-            <li><form action="index.html" method="get" ></form><input type="search"><i class="fa-solid fa-magnifying-glass"></i></li> 
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><form action="index.html" method="get" ><a target="_blank" href="https://google.com"></a></form><input type="search" placeholder="search.."><i class="fa-solid fa-magnifying-glass"></i></li> 
         </ul>
     </nav>
     <!-- creating class div1 for the Welcome with image inside -->
     <div class="div1 welcome" >
         <img src="images/main-banner.jpg" alt="main-banner">
         <!-- creating class div3 having h1,p and button for welcome -->
-        <div class="div2 ">
+        <div class="wrapper">
+        <div class="div2 " id="Home">
         <h1>Welcome to Three Star Media</h1>
         <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quos, reiciendis fugit praesentium labore neque? Corporis nam tempore nemo iusto possimus? Dolorum quo aperiam repellat quos incidunt optio temporibus aspernatur.</p>
         <button type="button">Connect with us <i class="fa-solid fa-caret-right"></i></button>
     </div>
+    </div>
     <!-- creating another class div3 for the about us having img, h2 , p tags inside  -->
     </div>
-    <div class="div3 about">
+    <div class="div3 about" id="about-us">
+        <div class="wrapper">
         <img src="images/about-us.jpg" alt="about-us">
         <h2 >About Us</h2>
         <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellat voluptatem dolor quibusdam iure, rem laborum eos voluptas ducimus laboriosam, ipsam vitae qui aliquam officiis obcaecati, voluptates reprehenderit neque cum.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, dicta mollitia natus eveniet neque officia sed. Eius fugiat consequatur alias provident, illo quibusdam numquam corporis cumque dicta, ipsam facere odio!</p>
     </div>
+    </div>
     <!-- creating a section for the our services -->
-    <section class="sec1 services">
+    <section class="sec1 services" id="services">
+        <div class="wrapper">
         <h2>Our Services</h2>
         <!-- creating a class grid having 5 classes inside for the different services -->
         <div class="grid1">
@@ -77,43 +82,51 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam ducimus, natus, esse quis magni alias ad harum sint perspiciatis enim repellendus pariatur ratione. Repellendus a quaerat, sequi rem est repudiandae?</p>
             <button type="button">Print Plans <i class="fa-solid fa-caret-right"></i></button>
             </div>
-            
+        </div>
         </div>
     </section>
     <br>
     <br>
     <!-- creating a sec class for the our vision -->
     <section class="sec2 vision">
-        <img src="images/vision.jpg" alt="vision">
+        <img  src="images/vision.jpg" alt="vision">
+        <div class="wrapper">
         <h2>Our Vision</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita accusamus, dolor dolore excepturi voluptatem ipsam nam omnis in earum et dolorem repudiandae ex reiciendis ad debitis libero quisquam vel quasi.</p>
         <br>
         <button type="button">Learn More <i class="fa-solid fa-caret-right"></i></button>
+    </div>
     </section>
     <!-- creating another section tag for the team having two different div tags for the team members  -->
-    <section class="sec3 Team">
+    <section class="sec3 Team" id="team">
+        <div class="wrapper">
         <h2>Our Team</h2>
+        <div class="team-bios">
         <div class="div9 john">
             <img src="images/john.jpg" alt="john">
         </div>
-        <div class="div10 ">
-            <h2>John Doe</h2>
-            <h3>CEO and Co-owner</h3>
+            <div class="john-bio">
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum nulla suscipit labore voluptas, impedit deserunt sequi expedita libero magni quas dolor accusantium illo ipsum in officia veritatis minus tempore.</p>
+        
         </div>
         <div class="div11 bob">
             <img src="images/bob.jpg" alt="bob">
         </div>
-        <div class="div12">
-            <h2>Bob Rite</h2>
-            <h3>CFO and Co-owner</h3>
+            <div class="bob-bio">
+            <h3>Bob Rite</h3>
+            <h4>CFO and Co-owner</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quae minima cupiditate nihil suscipit accusantium velit autem quasi minus blanditiis atque provident dolores dicta iure iste dolore facere? Voluptas, recusandae!</p>
+        
+        </div>
+        </div>
         </div>
     </section>
     <!-- using a section tag having class sec4 for contact -->
-    <section class="sec4 Contact">
+    <section class="sec4" id="contact">
         <h2>Contact Us</h2>
-        <div class="div13">
+        <div class="div13 contact">
             <!-- using a div tag for the message having class div14 -->
             <div class="div14 message">
                 <h3>Send us a message</h3>
@@ -137,34 +150,34 @@
             <br>
             <br>
             </div>
-            <!-- using a div tag for the location having class div15 -->
-            <div class="div15 Location">
+<!-- using a div tag for the hours of operation having class div15 -->
+            <div class="div15 Hours">
+                <h2>Hours of Operation </h2>
+                <table >
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- using a div tag for the location having class div16 -->
+            <div class="div16 Location">
                 <h3>Location</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.038073419092!2d-75.7596157!3d45.3480437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07afd713c56d%3A0xb73cbaee6d47a756!2s1385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%201V8!5e0!3m2!1sen!2sca!4v1711821109023!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <!-- using a div tag for the hours of operation having class div16 -->
-        <div class="div16 Hours">
-            <h2>Hours of Operation </h2>
-            <table >
-                <tr>
-                    <th>Days</th>
-                    <th>Hours</th>
-                </tr>
-                <tr>
-                    <td>Monday - Friday</td>
-                    <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday - Sunday</td>
-                    <td>Closed</td>
-                </tr>
-            </table>
-        </div>
     </section>
     <br>
     <!-- adding a footer tag with p tag inside -->
-    <footer>
+    <footer class="wrapper">
         <p>&copy; Copyright Three Star Media, 2020</p>
         <p>All Images are taken from Unsplash</p>
     </footer>

@@ -1,356 +1,286 @@
-/*
-
-- mobile first: your default styles (mobile, small width) have no media queries
-- set up your colors, fonts, etc - things that will always be the same regardless of width
-
-
-- at the breakpoint (higher width), add a media query with min-width
-- set up your grid, flex, any columns, etc
-*/
-
-button{
-    text-align: center;
-    justify-content: center;
-}
-
-
-.niv{
-    background-color: black;
-}
- li:nth-child(1){
-    display:inline;
- }   
-li{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    color: orange;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 10px;
-    }
-
-.div3 img{
-    width: 100%;
-}
-
-
-
-.div4{
-    margin-bottom: 15px;
-}
-
-.div5{
-    margin-bottom: 15px;
-}
-.div6 , .div7{
-    margin-bottom: 15px;
-}
-
-.div10{
-    margin-bottom: 15px;
-}
-.div13{
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "aa"
-    "cc"
-    "bb";
-}
-
-.div14{
-    grid-area: aa;
-}
-.div15{
-    grid-area: bb;
-}
-.div16 {
-    grid-area: cc;
-}
-
-.div9 , .div11{
-    width: 100%;
-}
-.grid1 h2,p{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-label,input{
-    width: 100%;
-}
-
-footer p{
-    display: flex;
-}
-
-@media screen and (min-width:1415px) {
-    
 .niv{
     background-color: black;
 }
 
 ul{
-    align-items: center;
-    display: flex;
-    list-style: none;
     color: orange;
-    justify-content: center;
+    list-style: none;
     text-align: center;
+    padding-bottom: 10px;
 }
-
 li{
-    padding: 15px;
+    padding: 5px;
 }
 
-.grid1{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-    "a a a b b b"
-    "c c d d e e";
-
-    .div4{
-        grid-area: a;
-    }
-    .div5{
-        grid-area: b;
-    }
-    .div6{
-        grid-area: c;
-    }
-    .div7{
-        grid-area: d;
-    }
-    .div8{
-        grid-area: e;
-    }
+li:hover{
+    background-color: orange;
 }
 
-.div4, .div5{
-    margin-bottom: 10px;
+li:nth-child(1){
+    text-align: left;
 }
 
-.div4, .div6, .div7{
-    margin-right: 10px;
-}
-
-.sec3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 6% 47% 47%;
-    grid-template-areas:
-    "h1 h1" 
-    "a b"
-    "d c";
-    }
-
-    h1{
-        grid-area: h1;
-    }
-    .div9{
-        grid-area: a;
-    }
-    .div10{
-        grid-area: b;
-    }
-    .div11{
-        grid-area: c;
-    }
-    .div12{
-        grid-area: d;
-    }
-
-    label,input{
-        width: 100%;
-    }
-
-}
-.div6, .div7, .div8{
-    padding-bottom: 0px;
-}
-
-.sec1 img{
-    width: 100%;
-}
-
-.div10, .div12{
-    padding: 10px;
-}
-
-.div13{
-    display: grid;
-   grid-template-columns: repeat(2, 1fr)
-}
-.div3 img{
-    float: left;
-    width: 50%;
-}
-
-.sec1 h2, div{
-    display: inline-block;
-}
-
-.imag{
-    width: 1rem;
-}
-
-.div2{
-    background-color: black;
-    color: white;
-}
-
-
-.div2 p, h1, button{
-    justify-content: center;
-    align-items: center;
-}
-
-button{
-    padding: 15px;
-}
-.div1 img{
-    width: 100%;
-   
-}
-.div3{
-    background-color:blanchedalmond;
-}
-
-.div4{
-    background-color:blanchedalmond;
-}
-
-.div4 button{
-    background-color: black;
-    color: azure;
-}
-.div5{
-    background-color:blanchedalmond;
-}
-
-.div5 button{
-    background-color: black;
-    color: azure;
-}
-.div6{
-    background-color:blanchedalmond;
-}
-
-.div6 button{
-    background-color: black;
-    color: azure;
-}
-.div7{
-    background-color:blanchedalmond;
-}
-
-.div7 button{
-    background-color: black;
-    color: azure;
-}
-.div8{
-    background-color:blanchedalmond;
-}
-
-.div8 button{
-    background-color: black;
-    color: azure;
-}
-
-.sec2 img{
-    width: 100%;
-}
-
-.sec2 button{
-    background-color: black;
-    color: azure;
-}
-
-.div10, .div12{
-    background-color: blanchedalmond;
-}
-
-.div10{
-    height: 100%;
-}
-
-
-.sec3 h3{
-    border-bottom: solid brown;
-}
-
-.sec3 img{
-    width: 100%;
-    height: 100%;
-}
-
-.sec2 button{
-    display: inline-block;
-    padding: 10px;
+li:last-child i{
+    padding: 3px;
     border: 1px solid orange;
 }
 
-.div14 button{
-    background-color: black;
-    color: orange;
-}
-
-
-.div14, .div15{
+.welcome img{
     width: 100%;
 }
 
-table{
-  width: 100%;
+.div2 button{
+    background-color: orange;
+    padding: 20px;
+    border: 2px solid orange;
 }
 
-table, td, th{
-    padding-left: 10px;
+.about{
+    background-color: blanchedalmond;
+    padding: 10px;
+    img{
+        width: 100%;
+    }
 }
+
+.digital{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+}
+
+.marketing{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+}
+
+.video{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+}
+
+.web{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+}
+
+.print{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+}
+
+.vision img{
+    width: 100%;
+}
+
+.john{
+    background-color: blanchedalmond;
+    padding: 10px;
+    img{
+        width: 100%;
+    }
+}
+
+.john-bio{
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    padding: 10px;
+    h3{
+        border-bottom: solid brown;
+    }
+}
+
+.bob{
+    background-color: blanchedalmond;
+    padding: 10px;
+    img{
+        width: 100%;
+    }
+}
+
+.bob-bio{
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    padding: 10px;
+    h3{
+        border-bottom: solid brown;
+    }
+}
+
+.message button{
+    background-color: black;
+    color: orange;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
 
 th{
     background-color: blanchedalmond;
 }
 
 
-
-table, th, td{
-    border: 2px solid black;
-    border-collapse: collapse;
-    
-}
-
 footer{
-    padding: 20px;
     background-color: black;
     color: orange;
+    padding: 10px;
 }
 
+@media screen and (min-width:1415px) {
+    ul{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        li{
+           padding: 20px; 
+        }
+    }
 
+    .grid1{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "a a a b b b"
+        "c c d d e e";
+    
+        .digital{
+            grid-area: a;
+        }
+        .marketing{
+            grid-area: b;
+        }
+        .video{
+            grid-area: c;
+        }
+        .web{
+            grid-area: d;
+        }
+        .print{
+            grid-area: e;
+        }
+    }
 
+    .digital{
+        border-right: 10px;
+    }
 
+    .video{
+        border-right: 10px;
+    }
 
+    .web{
+        border-right: 10px;
+    }
+    .team-bios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "a b"
+    "d c";
+    }
 
+    .john{
+        grid-area: a;
+    }
 
+    .john-bio{
+        grid-area: b;
+    }
 
+    .bob{
+        grid-area: c;
+    }
 
+    .bob-bio{
+        grid-area: d;
+    }
 
+    .john-bio{
+        height: 100%;
+    }
 
+    .john{
+        padding: 0px;
+    }
 
+    .bob{
+        padding: 0px;
+    }
 
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "x z"
+        "y y";
+        
+        .message{
+            grid-area: x;
+        }
 
+        .Hours{
+            grid-area: y;
+        }
 
-
-
-
-
-
-
-
-
-
-
+        .location{
+            grid-area: z;
+        }
+    }
+}
