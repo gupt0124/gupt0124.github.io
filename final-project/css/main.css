@@ -1,6 +1,4 @@
-.body{
-    font-family: open-sans;
-}
+
 
 .wrapper{
     max-width: 1200px;
@@ -9,11 +7,11 @@
 }
 
 .niv{
-    background-color: black;
+    background-color: #222;
 }
 
 ul{
-    color: orange;
+    color: #c78c06;
     list-style: none;
     text-align: center;
     padding-bottom: 10px;
@@ -23,7 +21,7 @@ li{
 }
 
 li:hover{
-    background-color: orange;
+    background-color: #c78c06;
 }
 
 li:nth-child(1){
@@ -32,7 +30,7 @@ li:nth-child(1){
 
 li:last-child i{
     padding: 3px;
-    border: 1px solid orange;
+    border: 1px solid #c78c06;
 }
 
 .welcome img{
@@ -40,13 +38,13 @@ li:last-child i{
 }
 
 .div2 button{
-    background-color: orange;
+    background-color: #c78c06;
     padding: 20px;
-    border: 2px solid orange;
+    border: 2px solid #c78c06;
 }
 
 .about{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     padding: 10px;
     img{
         width: 100%;
@@ -54,70 +52,70 @@ li:last-child i{
 }
 
 .digital{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
     img{
         width: 100%;
     }
     button{
-        background-color: black;
+        background-color: #222;
         color: white;
         padding: 20px;
     }
 }
 
 .marketing{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
     img{
         width: 100%;
     }
     button{
-        background-color: black;
+        background-color: #222;
         color: white;
         padding: 20px;
     }
 }
 
 .video{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
     img{
         width: 100%;
     }
     button{
-        background-color: black;
+        background-color: #222;
         color: white;
         padding: 20px;
     }
 }
 
 .web{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
     img{
         width: 100%;
     }
     button{
-        background-color: black;
+        background-color: #222;
         color: white;
         padding: 20px;
     }
 }
 
 .print{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
     img{
         width: 100%;
     }
     button{
-        background-color: black;
+        background-color: #222;
         color: white;
         padding: 20px;
     }
@@ -128,14 +126,14 @@ li:last-child i{
 }
 
 .john{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     img{
         width: 100%;
     }
 }
 
 .john-bio{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     margin-bottom: 10px;
     padding: 10px;
     h3{
@@ -144,14 +142,14 @@ li:last-child i{
 }
 
 .bob{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     img{
         width: 100%;
     }
 }
 
 .bob-bio{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
     margin-bottom: 10px;
     padding: 10px;
     h3{
@@ -160,8 +158,8 @@ li:last-child i{
 }
 
 .message button{
-    background-color: black;
-    color: orange;
+    background-color: #222;
+    color: #c78c06;
     padding: 10px;
 }
 
@@ -170,21 +168,21 @@ table{
 }
 
 table, th, td{
-    border: 2px solid black;
+    border: 2px solid #222;
     border-collapse: collapse;
     padding: 10px;
 }
 
 
 th{
-    background-color: blanchedalmond;
+    background-color: #ffe6ac;
 }
 
 
 footer{
     width: 100%;
-    background-color: black;
-    color: orange;
+    background-color: #222;
+    color: #c78c06;
     padding: 10px;
 }
 
