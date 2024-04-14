@@ -1,3 +1,13 @@
+.body{
+    font-family: open-sans;
+}
+
+.wrapper{
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
 .niv{
     background-color: black;
 }
@@ -119,7 +129,6 @@ li:last-child i{
 
 .john{
     background-color: blanchedalmond;
-    padding: 10px;
     img{
         width: 100%;
     }
@@ -136,7 +145,6 @@ li:last-child i{
 
 .bob{
     background-color: blanchedalmond;
-    padding: 10px;
     img{
         width: 100%;
     }
@@ -174,12 +182,13 @@ th{
 
 
 footer{
+    width: 100%;
     background-color: black;
     color: orange;
     padding: 10px;
 }
 
-@media screen and (min-width:1415px) {
+@media screen and (min-width:760px) {
     ul{
         display: flex;
         text-align: center;
@@ -216,15 +225,15 @@ footer{
     }
 
     .digital{
-        border-right: 10px;
+        margin-right: 10px;
     }
 
     .video{
-        border-right: 10px;
+        margin-right: 10px;
     }
 
     .web{
-        border-right: 10px;
+        margin-right: 10px;
     }
     .team-bios{
     display: grid;
@@ -253,14 +262,6 @@ footer{
 
     .john-bio{
         height: 100%;
-    }
-
-    .john{
-        padding: 0px;
-    }
-
-    .bob{
-        padding: 0px;
     }
 
     .contact{
