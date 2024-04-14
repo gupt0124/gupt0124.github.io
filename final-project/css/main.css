@@ -41,6 +41,7 @@ li:last-child i{
     background-color: #c78c06;
     padding: 20px;
     border: 2px solid #c78c06;
+    color: #222;
 }
 
 .about{
@@ -123,6 +124,13 @@ li:last-child i{
 
 .vision img{
     width: 100%;
+}
+
+.vision button{
+    background-color: #222;
+    padding: 10px;
+    border: 1px solid #c78c06;
+    color: white;
 }
 
 .john{
