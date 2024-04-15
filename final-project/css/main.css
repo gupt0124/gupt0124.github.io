@@ -4,6 +4,16 @@
     max-width: 1200px;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div2{
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .niv{
@@ -21,13 +31,18 @@ a:link{
     color:#c78c06;
 }
 
-li:hover,
+li:hover{
+    background-color:#c78c06;
+    color: #222;
+}
+
 li:focus{
     background-color: #c78c06;
     color: #222;
 }
 
 a:active{
+    background-color: #c78c06;
     color: #222;
 }
 
@@ -159,6 +174,24 @@ li:last-child i{
 
 .vision img{
     width: 100%;
+    height:min-content;
+}
+
+.vision-data{
+    position: absolute;
+  top: 15%;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vision{
+    position: relative;
 }
 
 .vision button{
