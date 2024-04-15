@@ -174,7 +174,7 @@ li:last-child i{
 
 .vision img{
     width: 100%;
-    height:min-content;
+    height:100%;
 }
 
 .vision-data{
@@ -182,7 +182,9 @@ li:last-child i{
   top: 15%;
   color: white;
   width: 100%;
-  padding: 10px;
+  border: 10px;
+  left: auto;
+  right: auto;
   max-width: 1200px;
     align-items: center;
     justify-content: center;
