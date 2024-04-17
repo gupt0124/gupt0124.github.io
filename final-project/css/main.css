@@ -214,7 +214,7 @@ li:last-child i{
 .john-bio{
     background-color: #ffe6ac;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px;
     height: 100%;
     h3{
         border-bottom: solid brown;
@@ -223,16 +223,17 @@ li:last-child i{
 
 .bob{
     background-color: #ffe6ac;
-    img{
-        width: 100%;
-    }
     
+}
+
+.bob img{
+    width: 100%;
 }
 
 .bob-bio{
     background-color: #ffe6ac;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px;
     h3{
         border-bottom: solid brown;
     }
@@ -314,6 +315,7 @@ footer{
     .web{
         margin-right: 10px;
     }
+
     .team-bios{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -337,10 +339,6 @@ footer{
 
     .bob-bio{
         grid-area: d;
-    }
-
-    .john-bio{
-        height: 100%;
     }
 
     .contact{
