@@ -2,6 +2,10 @@ body{
     font-family: "Open Sans", sans-serif;
         }
 
+h2{
+    font-weight: bolder;
+}
+
 .wrapper{
     max-width: 1200px;
     align-items: center;
@@ -289,21 +293,7 @@ footer{
 
     ul li{
         padding: 20px; 
-     }
-
-     .about img{
-        float: left;
-        width: 50%;
-        height: 20%;
-     }
-
-     .about p{
-        display: block
      } 
-
-     .services {
-        position: relative;
-     }
 
     .grid1{
         display: grid;
