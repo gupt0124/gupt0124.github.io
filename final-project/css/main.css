@@ -27,10 +27,6 @@ ul{
     padding-bottom: 10px;
 }
 
-a:link{
-    color:#c78c06;
-}
-
 li:hover{
     background-color:#c78c06;
     color: #222;
@@ -41,7 +37,7 @@ li:focus{
     color: #222;
 }
 
-a:active{
+li:active{
     background-color: #c78c06;
     color: #222;
 }
@@ -97,79 +93,90 @@ li:last-child i{
 .about{
     background-color: #ffe6ac;
     padding: 10px;
-    img{
-        width: 100%;
-    }
+}
+
+.about  img{
+    width: 100%;
 }
 
 .digital{
     background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
-    img{
-        width: 100%;
-    }
-    button{
-        background-color: #222;
-        color: white;
-        padding: 20px;
-    }
+}
+
+.digital img{
+    width: 100%;
+}
+
+.digital button{
+    background-color: #222;
+    color: white;
+    padding: 20px;
 }
 
 .marketing{
     background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
-    img{
-        width: 100%;
-    }
-    button{
-        background-color: #222;
-        color: white;
-        padding: 20px;
-    }
+}
+
+.marketing img{
+    width: 100%;
+}
+
+.marketing  button{
+    background-color: #222;
+    color: white;
+    padding: 20px;
 }
 
 .video{
     background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
-    img{
-        width: 100%;
-    }
-    button{
-        background-color: #222;
-        color: white;
-        padding: 20px;
-    }
+}
+
+.video img{
+    width: 100%;
+}
+
+.video button{
+    background-color: #222;
+    color: white;
+    padding: 20px;
 }
 
 .web{
     background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
-    img{
-        width: 100%;
-    }
-    button{
-        background-color: #222;
-        color: white;
-        padding: 20px;
-    }
+}
+
+.web  img{
+    width: 100%;
+}
+
+.web button{
+    background-color: #222;
+    color: white;
+    padding: 20px;
 }
 
 .print{
     background-color: #ffe6ac;
     padding: 10px;
     margin-bottom: 10px;
-    img{
-        width: 100%;
-    }
-    button{
-        background-color: #222;
-        color: white;
-        padding: 20px;
-    }
+}
+
+.print  img{
+    width: 100%;
+}
+
+.print button{
+    background-color: #222;
+    color: white;
+    padding: 20px;
 }
 
 .vision img{
@@ -205,10 +212,10 @@ li:last-child i{
 
 .john{
     background-color: #ffe6ac;
-    img{
-        width: 100%;
-        
-    }
+}
+
+.john img{
+    width: 100%;
 }
 
 .john-bio{
@@ -216,9 +223,10 @@ li:last-child i{
     margin-bottom: 10px;
     padding: 5px;
     height: 100%;
-    h3{
-        border-bottom: solid brown;
-    }
+}
+
+.john-bio h3{
+    border-bottom: solid brown;
 }
 
 .bob{
@@ -234,9 +242,10 @@ li:last-child i{
     background-color: #ffe6ac;
     margin-bottom: 10px;
     padding: 5px;
-    h3{
-        border-bottom: solid brown;
-    }
+}
+
+.bob-bio h3{
+    border-bottom: solid brown;
 }
 
 .message button{
@@ -274,10 +283,20 @@ footer{
         text-align: center;
         justify-content: center;
         align-items: center;
-        li{
-           padding: 20px; 
-        }
     }
+
+    ul li{
+        padding: 20px; 
+     }
+
+     .about img{
+        float: left;
+        width: 50%;
+     }
+
+     .about p{
+        display: block
+     } 
 
     .grid1{
         display: grid;
@@ -286,6 +305,7 @@ footer{
         grid-template-areas: 
         "a a a b b b"
         "c c d d e e";
+    }
     
         .digital{
             grid-area: a;
@@ -302,7 +322,7 @@ footer{
         .print{
             grid-area: e;
         }
-    }
+    
 
     .digital{
         margin-right: 10px;
@@ -348,7 +368,7 @@ footer{
         grid-template-areas: 
         "x z"
         "y y";
-        
+    }
         .message{
             grid-area: x;
         }
@@ -360,7 +380,6 @@ footer{
         .location{
             grid-area: z;
         }
-    }
 
     .welcome img{
         width: 100%;
