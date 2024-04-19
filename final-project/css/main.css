@@ -1,4 +1,6 @@
-
+body{
+    font-family: "Open Sans", sans-serif;
+        }
 
 .wrapper{
     max-width: 1200px;
@@ -292,6 +294,7 @@ footer{
      .about img{
         float: left;
         width: 50%;
+        height: 20%;
      }
 
      .about p{
