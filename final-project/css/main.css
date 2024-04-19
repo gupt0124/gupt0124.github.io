@@ -232,7 +232,7 @@ li:last-child i{
 }
 
 .john-bio h3{
-    border-bottom: solid brown;
+    border-bottom: solid #c78c06;
 }
 
 .bob{
@@ -251,7 +251,7 @@ li:last-child i{
 }
 
 .bob-bio h3{
-    border-bottom: solid brown;
+    border-bottom: solid #c78c06;
 }
 
 .message button{
